@@ -82,8 +82,8 @@ $trnnum = $_SESSION["trnnum"];
 								else
 									echo "";
 								?><br/><br/>
-				<button class="valider" name="valider" type="submit" value="Valider" title="" onclick="if(!confirm('Voulez-vous confirmez?')) return false;"> <img src="..\..\Images\check_mark_24.png" width="14" height="14"/> Valider </button> <!--image check vert (Images/check_mark_24.png) -->
-				<button class="annuler" name="annuler" type="reset" value="Annuler" title="" onclick="window.location='../PageAC11/Tableau.php'" > <img src="..\..\Images\delete_24.png" width="14" height="14" /> Annuler </button> <!-- + image croix rouge (Images/delete_24.png)-->
+				<button class="valider" name="valider" type="submit" value="Valider" title="" onclick="if(!confirm('Voulez-vous confirmez?')) return false;"> <img src="..\images\plus_24.png" width="14" height="14"/> Valider </button> <!--image check vert (Images/check_mark_24.png) -->
+				<button class="annuler" name="annuler" type="reset" value="Annuler" title="" onclick="window.location='../PageAC11/Tableau.php'" > <img src="..\images\delete_24.png" width="14" height="14" /> Annuler </button> <!-- + image croix rouge (Images/delete_24.png)-->
 		</form>
 		
 	</p>

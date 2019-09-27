@@ -99,7 +99,7 @@ $results = tableSQL($sql);
 
     </table>
 <br><br>
-<button type="submit" name="action" value="ajouter" onclick="window.location='../PageAC12/form_ac12_ajouter.php'">Ajouter</button>
+<button type="submit" name="action" value="ajouter" onclick="window.location='../PageAC12/form_ac12_ajouter.php'"> <img src="..\images\plus_24.png"  width="14" height="14"/> Ajouter</button>
 
 </body>
 
